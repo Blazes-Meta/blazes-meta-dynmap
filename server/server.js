@@ -33,5 +33,5 @@ app.post("/api/token", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening at https://blazes-meta-dynmap-server.onrender.com:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });
