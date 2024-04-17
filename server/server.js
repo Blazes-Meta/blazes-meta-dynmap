@@ -32,10 +32,11 @@ app.post("/api/token", async (req, res) => {
   res.send({access_token});
 });
 
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
-});
-
+// New endpoint for UptimeRobot
 app.get("/status", (req, res) => {
   res.send("Server is up and running!");
+});
+
+app.listen(port, () => {
+  console.log(`Server listening at http://localhost:${port}`);
 });
