@@ -35,3 +35,7 @@ app.post("/api/token", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
+
+app.get("/status", (req, res) => {
+  res.send("Server is up and running!");
+});
