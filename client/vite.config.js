@@ -7,7 +7,8 @@ export default defineConfig({
     //port: 8080, // Hier ändern
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'https://blazes-meta-dynmap-server.onrender.com/',
+        //target: 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
         ws: true,
