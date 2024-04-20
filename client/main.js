@@ -1,6 +1,3 @@
-//import './style.css'
-//import rocketLogo from './rocket.png'
-
 fetch('/index.html')
   .then(response => response.text())
   .then(html => {
