@@ -1,4 +1,3 @@
 server/** linguist-vendored
 
-client/style.css linguist-vendored
 client/vite.config.js linguist-vendored
