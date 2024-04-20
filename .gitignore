@@ -14,7 +14,7 @@ node_modules
 
 # Modules + built files
 node_modules
-#dist
+dist
 dist-ssr
 *.local
 
